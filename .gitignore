@@ -1,0 +1,23 @@
+# Secretos — NUNCA commitear (regla dura del análisis de riesgos)
+.env
+
+# Datos generados: digests de videos de terceros + historial de consumo
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Entorno local
+.venv/
+
+# Artefactos de plugins/sesiones locales de ZCode
+.auth/
+.v2c/
+.video_agent/
+.zcode/
+
+# macOS
+.DS_Store
