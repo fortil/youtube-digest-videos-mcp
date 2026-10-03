@@ -1,5 +1,7 @@
 # youtube-digest
 
+[![M8ven Score](https://m8ven.ai/badge/mcp/fortil-youtube-digest-videos-mcp-1wvgvs?v=fbc8d7b8e1b58ec13b4d2c2dc2d24263)](https://m8ven.ai/mcp/fortil-youtube-digest-videos-mcp-1wvgvs?s=readme)
+
 MCP server that turns YouTube videos into text. You give it a URL, Gemini
 watches the video (audio and visuals) through its documented YouTube-URL
 input, and you get the full content as text plus a short summary. Results are
@@ -10,8 +12,8 @@ There is no downloading and no caption scraping involved. Passing a public
 YouTube URL as multimodal input is a documented feature of the Gemini API
 ([video understanding](https://ai.google.dev/gemini-api/docs/video-understanding)).
 
-Built for [ZCode](https://z.ai) / Z.AI, works with any MCP client that speaks
-stdio (Claude Code, Cursor, etc.).
+Any client that speaks MCP over stdio can run it: Claude Code, Claude
+Desktop, Cursor, Windsurf, Cline, Continue, VS Code, ZCode.
 
 ## Tools
 
