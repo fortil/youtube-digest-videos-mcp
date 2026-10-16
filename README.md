@@ -2,6 +2,15 @@
 
 [![M8ven Score](https://m8ven.ai/badge/mcp/fortil-youtube-digest-videos-mcp-1wvgvs?v=fbc8d7b8e1b58ec13b4d2c2dc2d24263)](https://m8ven.ai/mcp/fortil-youtube-digest-videos-mcp-1wvgvs?s=readme)
 
+<p align="center">
+  <a href="https://github.com/fortil/youtube-digest-videos-mcp"><img src="https://img.shields.io/badge/github-fortil%2Fyoutube--digest--videos--mcp-181717?logo=github" alt="github.com/fortil/youtube-digest-videos-mcp"></a>
+  <img src="https://img.shields.io/badge/python-3776AB?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/MCP-server-5F45AF" alt="MCP server">
+  <img src="https://img.shields.io/badge/Gemini-video%20understanding-8E75B2?logo=googlegemini" alt="Gemini video understanding">
+  <img src="https://img.shields.io/badge/SQLite-cache%20%2B%20FTS5-003B57?logo=sqlite&logoColor=white" alt="SQLite cache and FTS5">
+  <img src="https://img.shields.io/badge/license-MIT-green" alt="MIT license">
+</p>
+
 MCP server that turns YouTube videos into text. You give it a URL, Gemini
 watches the video (audio and visuals) through its documented YouTube-URL
 input, and you get the full content as text plus a short summary. Results are
